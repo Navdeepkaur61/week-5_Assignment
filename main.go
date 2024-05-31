@@ -46,10 +46,12 @@ func main() {
 			// Calling FahrenheitToCelsius to convert fahrenheit into celsius
 			celsius := FahrenheitToCelsius(tempertureToConvert)
 			fmt.Printf("Your Celsius value is %.2f C\n", celsius)
+
 		} else if unitOfTemperture == "C" {
 			fahrenheit := CelsiusToFahrenheit(tempertureToConvert)
 			// Calling FahrenheitToCelsius to convert celsius into fahrenheit
 			fmt.Printf("Your Fahrenheit value is %.2f F\n", fahrenheit)
+
 		} else {
 			fmt.Println("Invalid unit. Please use 'F' for Fahrenheit or 'C' for Celsius.")
 		}

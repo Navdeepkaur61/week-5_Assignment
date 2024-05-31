@@ -26,7 +26,7 @@ func main() {
 
 		// fmt.Println(splitInput)
 		if len(splitInput) != 2 {
-			fmt.Println("Invalid input format. Please enter temperture unit (F or C).")
+			fmt.Println("Invalid input format. Please enter the temperture unit (F or C).")
 			continue
 		}
 
